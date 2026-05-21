@@ -10,10 +10,11 @@ build/
 venv/
 env/
 
-# ML artifacts
+# ML artifacts (model Cloud deploy için repoda)
 models/*.pkl
-models/*.joblib
+!models/sentiment_pipeline.joblib
 reports/*.json
+!reports/metrics.json
 # PNG grafikleri README için repoda tutulur
 data/raw/
 data/processed/

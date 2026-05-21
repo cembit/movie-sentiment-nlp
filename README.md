@@ -41,6 +41,10 @@ Validation ve test skorları birbirine yakın → aşırı ezberleme belirtisi z
 
 ## Canlı demo (Streamlit)
 
+🌐 **Canlı uygulama:** *(Streamlit Cloud deploy sonrası linki buraya ekle)*
+
+Lokal çalıştırma:
+
 ```bash
 streamlit run app.py
 ```
