@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ML artifacts
+models/*.pkl
+models/*.joblib
+reports/*.json
+# PNG grafikleri README için repoda tutulur
+data/raw/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Keep folder structure
+!models/.gitkeep
+!reports/.gitkeep
+!data/.gitkeep
